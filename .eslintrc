@@ -1,0 +1,20 @@
+{
+  "plugins": ["mocha"],
+  "env": {
+    "node": true,
+    "mocha": true,
+    "mongo": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "mocha/no-exclusive-tests": "error",
+    "jsx-a11y/href-no-hash": "off",
+    "no-underscore-dangle": 0,
+    "object-curly-newline": 0,
+    "arrow-body-style": 2,
+    "no-console": ["error", { "allow": ["error"] }],
+    "indent": ["warn", 2]
+  }
+}
